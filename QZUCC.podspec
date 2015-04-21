@@ -3,10 +3,7 @@ Pod::Spec.new do |s|
   s.version          = "1.0.1"
   s.summary          = "A marquee view used on iOS."  
   s.homepage         = "https://github.com/wcnjeusr/QZUCC”
-  s.description      = <<-DESC
-                          It is a marquee view used on iOS, which implement by Objective-C.
-                          DESC
-  # s.screenshots      = "www.example.com/screenshots_1", "www.example.com/screenshots_2"  
+
   s.license          = 'MIT'  
   s.author           = { "wengmx" => "wcnjeusr@qq.com" }
   s.source           = { :git => "https://github.com/wcnjeusr/QZUCC", :tag => s.version.to_s }  
@@ -25,4 +22,7 @@ Pod::Spec.new do |s|
   # s.public_header_files = 'Classes/**/*.h'  
   s.frameworks = 'Foundation', 'CoreGraphics', 'UIKit'  
   
-end 
+end
+
+
+
